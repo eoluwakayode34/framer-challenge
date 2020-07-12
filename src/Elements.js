@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
-export const Header = styled.header`
-  background: var(--black);
+export const Header = styled.header `
+  background:  var(--black);
   color: white;
   padding: 20px;
   display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
   > svg {
     margin-right: 20px;
   }
@@ -16,19 +20,19 @@ export const Header = styled.header`
   }
 `;
 
-export const Container = styled.div`
+export const Container = styled.div `
   width: 95%;
   max-width: 600px;
   margin: 0 auto;
   padding-bottom: 60px;
 `;
 
-export const CardGrid = styled.div`
+export const CardGrid = styled.div `
   display: grid;
   grid-gap: 20px;
 `;
 
-export const Card = styled.div`
+export const Card = styled.div `
   border-radius: 15px;
   padding: 20px;
   color: white;
